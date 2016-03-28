@@ -1,0 +1,10 @@
+when running rake it relys on knowing which environment we are in
+
+
+which file accesses. the .yml file? The rake(I think)
+
+
+The rake commands rely on the .yml file to know which database we are talking about
+
+
+'development' 'test' and 'production' are words that matter to rake
