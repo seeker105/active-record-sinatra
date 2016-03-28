@@ -8,3 +8,9 @@ The rake commands rely on the .yml file to know which database we are talking ab
 
 
 'development' 'test' and 'production' are words that matter to rake
+
+
+rake db:create_migration NAME=create_films
+creates migration folder if it does not exist.
+creates a 'CreateFilms' class; migration file in the migrate folder
+creates it as an inheritor of ActiveRecord::Migration
