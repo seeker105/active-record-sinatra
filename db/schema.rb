@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(version: 20160329034631) do
 
   create_table "directors", force: :cascade do |t|
-    t.string "director"
+    t.string "name"
   end
 
   create_table "films", force: :cascade do |t|
